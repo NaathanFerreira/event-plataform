@@ -12,12 +12,18 @@
   "dependencies": {
     "@apollo/client": "^3.8.1",
     "@phosphor-icons/react": "^2.0.10",
+    "@vime/core": "^5.4.1",
+    "@vime/react": "^5.4.1",
+    "classnames": "^2.3.2",
     "date-fns": "^2.30.0",
     "graphql": "^16.8.0",
     "react": "^18.2.0",
-    "react-dom": "^18.2.0"
+    "react-dom": "^18.2.0",
+    "react-router-dom": "^6.15.0"
   },
   "devDependencies": {
+    "@graphql-codegen/cli": "^5.0.0",
+    "@graphql-codegen/client-preset": "^4.1.0",
     "@rocketseat/eslint-config": "^2.1.0",
     "@types/react": "^18.2.15",
     "@types/react-dom": "^18.2.7",
@@ -32,6 +38,7 @@
     "prettier": "^3.0.3",
     "prettier-plugin-tailwindcss": "^0.5.3",
     "tailwindcss": "^3.3.3",
+    "ts-node": "^10.9.1",
     "typescript": "^5.0.2",
     "vite": "^4.4.5"
   }
